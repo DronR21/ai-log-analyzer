@@ -1,0 +1,8 @@
+2026-09-20 10:12:01 INFO Starting application server on port 5000
+2026-09-20 10:12:03 INFO Connected to database successfully
+2026-09-20 10:14:22 WARNING Response time exceeded 2000ms for /api/orders
+2026-09-20 10:15:45 ERROR Database connection timeout after 30s: could not connect to host db-primary:5432
+2026-09-20 10:15:46 ERROR Failed to process request /api/orders - Connection refused
+2026-09-20 10:16:02 INFO Retrying database connection (attempt 1/3)
+2026-09-20 10:16:35 ERROR Retry failed: connection pool exhausted (max_connections=20, active=20)
+2026-09-20 10:20:11 INFO Database connection restored
